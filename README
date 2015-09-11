@@ -1,0 +1,24 @@
+Name: Ian Milligan
+Project: Cavern Caretaker
+
+The final executable was compiled on this machine:
+gl06 
+
+How to invoke my program: 
+Execute the binary ./dungeon [dungeon-map]
+
+Options for how to slow down the FFS can be found in src/constants.hpp.  Other files and configurations may be edited there as well.
+
+Objectives:
+
+1__: The cavern is created from a bitmap file when the game loads, with fractal terrain applied to the walls.
+2__: The dungeon janitor and enemies are rendered correctly.
+3__: Collisions between the character, enemies, and the cavern walls are handled appropriately.
+4__: Texture mapping for dungeon characters and enemies is supported.
+5__: Sound effects are triggered by player actions in the game.
+6__: Light cast by the player and by torches dissipates in fog.
+7__: Shadows are cast by torches and the player’s light source.
+8__: Anti-aliasing is used to reduce shadow noise. Shadows cast have smooth edges.
+9__: Enemy AI is implemented. The creatures that the player must “clean up” respond appropriately when they are within line of sight of the janitor or are hit by the player.
+10__: Animations of the game characters function properly.
+
